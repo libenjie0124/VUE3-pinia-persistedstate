@@ -17,10 +17,15 @@ module.exports = defineConfig({
   css: {
     loaderOptions: {
       postcss: {
-        config: {
-          path: __dirname,
+        // 在这里直接配置 postcss 相关的选项
+        postcssOptions: {
+          plugins: {
+            // 这里是 PostCSS 插件的配置
+          },
+          // 其他 postcss 选项
         },
       },
     },
   },
+
 });

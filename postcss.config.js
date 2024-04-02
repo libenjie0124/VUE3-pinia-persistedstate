@@ -6,5 +6,7 @@ module.exports = {
       selectorBlackList: [], // 不进行转换的选择器
       minPixelValue: 2, // 小于 2px 不转换
     },
+    tailwindcss: {},
+    autoprefixer: {},
   },
 };

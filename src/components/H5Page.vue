@@ -1,5 +1,5 @@
 <template>
-  <div>h5</div>
+  <div class=""> h5</div>
 </template>
 
 <script setup>
